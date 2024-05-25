@@ -1,0 +1,63 @@
+main{
+    width: 75%;
+    margin: 20px auto;
+}
+video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+h3{
+    color: white;
+}
+p{
+    color: white;
+}
+ul{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+    margin: 20px;
+    color: white;
+    border-radius: 20%;
+    list-style-type: none;
+}
+#primero{
+    position: relative;
+    left: 25%;
+    min-width: 50%;
+    min-height: 50%;
+}
+h3{
+    text-align: center;
+}
+.segundo{
+    display: flex;
+}
+#imagen{
+    width: 350px;
+    height: 250px;
+    border-radius: 20%;
+    margin: 20px;
+}
+#foto1{
+    position: relative;
+    left: 40%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    border-radius: 100%;
+}
+

@@ -1,0 +1,48 @@
+main{
+    width: 75%;
+    margin: 20px auto;  
+}
+video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+ul{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+li{
+    list-style-type: none;
+    margin: 20px;
+    color: white;
+    border-radius: 20%;
+    list-style-type: none; 
+}
+.fotito{
+    margin: 100px;
+    position: relative;
+    left: 10%;
+}
+#foto1{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+#final{
+    position: relative;
+    left: 40%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    border-radius: 100%;
+}
